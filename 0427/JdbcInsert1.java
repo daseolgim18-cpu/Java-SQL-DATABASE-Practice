@@ -37,13 +37,13 @@ public class JdbcInsert1{
             System.out.println("저장된 행 수: " + rows);
 
             //bno 값 얻기
-            if(rows == 1) {
+            /*if(rows == 1) {
                 ResultSet rs = pstmt.getGeneratedKeys();
                 if(rs.next()) {
                     int bno = rs.getInt(1);
                     System.out.println("저장된 bno: " + bno);
                 }
-            }
+            }*/
                 
             } catch (ClassNotFoundException e) {
                 e.printStackTrace();
